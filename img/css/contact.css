@@ -1,0 +1,15 @@
+form{
+    width:30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2, p{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 25px;
+    color: #b55200;
+    text-align: center;
+    
+}
+h2{
+    font-size: 75px
+}
