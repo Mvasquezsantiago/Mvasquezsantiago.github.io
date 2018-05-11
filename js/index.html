@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Donuts Delight</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="icon" href="images/favicon.ico">
+	<link href="jquery.bxslider.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="js/jquery.bxSlider.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#slider").bxSlider({
+                auto: true,
+                autoControls: false,
+                captions: false,
+                minSlides: 1,
+                maxSlides: 1,
+                slideWidth: 1000,
+                slideMargin: 10,
+                speed: 100,
+            });
+        });
+        $(document).singlePageNav({filter: ':not(#pleasework)'});
+        $('.single-page-nav').singlePageNav({
+        offset: $('.single-page-nav').outerHeight(),
+        filter: ':not(.external)',
+        updateHash: true,
+        beforeStart: function () {
+            console.log('begin scrolling');
+        },
+        onComplete: function () {
+            console.log('done scrolling');
+        }
+    });
+    </script>
+</head>
+    <body>
+        <header>
+             <div id="socialmedia">
+            <img src="images/fb.png" alt="" style="width:48px">
+            <img src="images/insta.png" alt="">
+            </div>
+            <a href="index.html" id="logo">
+            <img src="images/DDLogo.png" alt="" style="width:200px"></a>            
+        <nav id="navigation_menu">
+            <ul>
+                <li><a href="home.html" id=".current" class="external">HOME</a></li>
+                <li><a href="location.html" class="external">FIND A LOCATION</a></li>
+                <li><a href="contact.html" class="external">CONTACT US</a></li>
+                <li><a href="about.html" class="external">ABOUT US</a></li>
+                <li><a href="product.html" class="external">PRODUCTS</a></li>
+            </ul>
+        </header>
+        
+        </nav>
+        <body>
+            <section>
+                  <ul id="slider">
+                    <li><img src="images/carousal_01.jpg" alt="" title=""></li>
+                    <li><img src="images/carousal_02.jpg" alt="" title=""></li>
+                </ul>
+            </section>
+        </body>
+        <footer>
+
+        </footer>
+    
+    </body>
+</html>

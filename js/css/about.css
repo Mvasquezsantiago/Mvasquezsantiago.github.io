@@ -1,0 +1,27 @@
+main img{
+    width:400px;
+    position: absolute;
+    margin-left: -25em;
+margin-top: 17em;
+}
+h2 {
+font-family: 'Franklin Gothic Medium';
+font-size: 25px;
+color: #b55200;
+text-align: left;
+font-size: 75px;
+margin-left: 3em;
+margin-right: 15em;
+margin-bottom: .5em;
+float: left;
+}
+p{font-family: 'Franklin Gothic Medium';
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 9em;
+    margin-right: 25em;
+    float: left;
+    }
+
